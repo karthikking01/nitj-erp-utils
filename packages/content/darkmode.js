@@ -1,4 +1,4 @@
-// Work to be done in the future to add a dark mode to the website. For now, this file is just a placeholder.
+//Dark mode support for the content pages. This script checks if the user prefers dark mode and applies custom styles accordingly.
 const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
 if (isDarkMode) {
 
@@ -6,7 +6,7 @@ if (isDarkMode) {
     const style = document.createElement("style");
     style.textContent =
       `body {
-        background-color: #0B1220;
+        background-color: #0B1220 !important; 
         color: #E5E7EB;
       }
 
@@ -81,9 +81,6 @@ if (isDarkMode) {
         color: #F9FAFB;
       }
 
-      table tr:nth-child(even) {
-        background-color: #0F172A;
-      }
 
       .panels-contents table tbody tr td a {
         color: #38BDF8;
