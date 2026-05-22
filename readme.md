@@ -36,12 +36,13 @@
 
 ## Features
 
-|     | Feature                           | Description                                                                |
-| --- | --------------------------------- | -------------------------------------------------------------------------- |
-| 🌙  | **Dark Mode**                     | System-aware dark theme for comfortable night-time browsing                |
-| 📊  | **Attendance Deficit Calculator** | Instantly see how many classes you need to attend (or can skip) to hit 75% |
-| ⚡  | **Lightweight & Fast**            | Zero heavy dependencies - loads in milliseconds                            |
-| 🦊  | **Cross-Browser**                 | Works on Chrome, Brave, Opera, and Firefox                                 |
+|     | Feature                           | Description                                                                                            |
+| --- | --------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| 🌙  | **Dark Mode**                     | System-aware dark theme for comfortable night-time browsing                                            |
+| 📅  | **Interactive Calendar**          | Visual calendar with day/month navigation, showing attendance per day and quick drill-down for details |
+| 📊  | **Attendance Deficit Calculator** | Instantly see how many classes you need to attend (or can skip) to hit 75%                             |
+| ⚡  | **Lightweight & Fast**            | Zero heavy dependencies - loads in milliseconds                                                        |
+| 🦊  | **Cross-Browser**                 | Works on Chrome, Brave, Opera, and Firefox                                                             |
 
 <br />
 
@@ -50,6 +51,10 @@
 > Dark mode support across the ERP interface.
 
 ![Dark Mode Preview](./assets/dark-mode-preview.png)
+
+> Interactive calendar for viewing attendance by day and month.
+
+![Interactive Calendar Preview](./assets/attendance-calendar-preview.png)
 
 > Attendance insights injected directly into the ERP report page.
 
