@@ -45,5 +45,13 @@ module.exports = {
 
       run_at: "document_idle",
     },
+
+    {
+      matches: ["https://v1.nitj.ac.in/erp/attendance_report_detail.php*"],
+
+      js: ["packages/content/calender_view.js"],
+
+      run_at: "document_idle",
+    },
   ],
 };
