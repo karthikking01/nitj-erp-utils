@@ -503,6 +503,43 @@
       border-top: 1px solid var(--border) !important;
     }
 
+    /* Homepage: Tiles & Marquee */
+    .tiles .link-tiles {
+      background: var(--bg-raised) !important;
+      border: 1px solid var(--border) !important;
+    }
+
+    .tiles .link-tiles a {
+      color: var(--text-secondary) !important;
+    }
+
+    .tiles .link-tiles:hover {
+      background: var(--bg-hover) !important;
+      border-color: var(--accent-blue) !important;
+    }
+
+    .tiles .link-tiles:hover a {
+      color: #93C5FD !important;
+    }
+
+    .counselling-marquee {
+      background: var(--bg-surface) !important;
+      border-bottom-color: var(--border-strong) !important;
+      animation: none !important;
+    }
+
+    .counselling-marquee:hover {
+      background: var(--bg-hover) !important;
+    }
+
+    .marquee-text {
+      color: #60A5FA !important;
+    }
+
+    .counselling-marquee:hover .marquee-text {
+      color: #93C5FD !important;
+    }
+
     @media print {
       :root { color-scheme: light; }
       body { background: white !important; color: black !important; }

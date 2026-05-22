@@ -38,6 +38,7 @@
 
 |     | Feature                           | Description                                                                |
 | --- | --------------------------------- | -------------------------------------------------------------------------- |
+| 🌙  | **Dark Mode**                     | System-aware dark theme for comfortable night-time browsing                |
 | 📊  | **Attendance Deficit Calculator** | Instantly see how many classes you need to attend (or can skip) to hit 75% |
 | ⚡  | **Lightweight & Fast**            | Zero heavy dependencies - loads in milliseconds                            |
 | 🦊  | **Cross-Browser**                 | Works on Chrome, Brave, Opera, and Firefox                                 |
@@ -45,6 +46,10 @@
 <br />
 
 ## Preview
+
+> Dark mode support across the ERP interface.
+
+![Dark Mode Preview](./assets/dark-mode-preview.png)
 
 > Attendance insights injected directly into the ERP report page.
 
